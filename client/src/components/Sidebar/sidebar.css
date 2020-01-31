@@ -1,0 +1,9 @@
+.LogoText
+{
+  color: white;
+    font-size: 22px;
+}
+.LogoText:hover{
+  color: white;
+  cursor: pointer;
+}

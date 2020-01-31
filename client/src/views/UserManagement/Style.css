@@ -1,0 +1,4 @@
+.react-tel-input input[type=tel]{
+  width:100%!important;
+      height: 40px!important;
+}

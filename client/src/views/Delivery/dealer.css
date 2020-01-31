@@ -1,0 +1,38 @@
+.checkboxStyle{
+  width: 31%;
+}
+.checkboxStyle1{
+  width: 100%;
+}
+.optionDiv{
+  display: flex;
+  width: 100%;
+  max-width: 50%;
+}
+.bold
+{
+  font-weight: bold;
+}
+.Payment{
+  margin-top: 25px;
+  font-weight: bold;
+}
+.input{
+  width: 47%;
+height: 37px;
+border-radius: 6px;
+}
+
+@media(max-width:1000px){
+    .typeOfDelivery{
+      border:hidden;
+      display:flex;
+      flex-wrap:wrap
+    }
+  }
+.react-tel-input .form-control{
+  width:355px;
+}
+.datePickerCashManagement{
+  width:269px!important;
+}

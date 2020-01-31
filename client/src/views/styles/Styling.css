@@ -1,0 +1,55 @@
+.scrollerclass{
+  overflow: scroll;
+  height: 90vh;
+}
+
+.tabNotActive
+{
+  background:lightgray;
+  height:70px;
+}
+
+.tabActive
+{
+  color:white;
+  height:70px
+}
+.textColorActive{
+  color:blue
+}
+.textColorNotActive{
+  color:black
+}
+.modal.show .modal-dialog{
+  margin-left:400px
+}
+.form-group{
+  margin:10px
+}
+@media(max-width:1400px){
+.main{
+      margin-left: 11%;
+}
+
+
+}
+.label{
+  min-width: 100px;
+}
+.checkboxStyle{
+  min-width: 50px;
+}
+.datePicker{
+  width: 230px;
+  max-width: 193px;
+
+height: 40px;
+border-radius: 8px;
+}
+.datePickerCashManagement{
+  width: 178px;
+height: 40px;
+border-radius: 8px;
+}
+.date .datePickerCashManagement{
+width:107%!important;}

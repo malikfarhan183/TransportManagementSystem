@@ -1,0 +1,60 @@
+{
+  "name": "ATMS-Express-Dashboard",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^10.16.0"
+  },
+  "description": "Ammad Transport Management System - Express-Dashoard",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js ",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail  \"yarn client\" \"yarn server\""
+  },
+  "author": "sheeraz",
+  "license": "ISC",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.2",
+    "cloudinary": "^1.14.0",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "express-csv": "^0.6.0",
+    "fs": "0.0.1-security",
+    "google": "^2.1.0",
+    "json2csv": "^4.5.2",
+    "json2xls": "^0.1.2",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.10.8",
+    "mongoose-autopopulate": "^0.9.1",
+    "mongoose-unique-validator": "^1.0.5",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.1",
+    "node": "^10.3.0",
+    "node-cron": "^2.0.3",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "password-hash": "^1.2.2",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "sendgrid": "^5.2.0",
+    "sightengine": "^1.1.1",
+    "yarn": "^1.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

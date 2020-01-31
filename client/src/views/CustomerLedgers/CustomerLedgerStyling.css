@@ -1,0 +1,15 @@
+.widthControl  .form-control{
+  width: 170px !important;
+}
+.WidthOfLabel{
+  width: 110px !important;
+}
+
+.ledgerPage .card{
+  height: 95vh;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+.defaultButtonOfExport{
+  background: black;
+}

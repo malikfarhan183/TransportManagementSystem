@@ -1,0 +1,22 @@
+.nav-bar-top{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maindiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.category{
+  padding: 50px;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

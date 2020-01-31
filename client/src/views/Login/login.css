@@ -1,0 +1,56 @@
+.AdminLogin{
+  display: flex;
+  flex-direction: column;
+
+}
+.logoimg{
+  height: 100px;
+  width: 100%;
+  object-fit: scale-down;
+}
+.loginDiv
+{
+  /* background: orange; */
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginFormDiv
+{
+  padding: 30px;
+  border-radius: 7px;
+  /* border: 2px solid #532F91; */
+  background: white;
+  /* box-shadow: 0px 7px 18px #888890; */
+  min-width: 250px;
+  max-width: 350px;
+}
+
+.btn-info:hover
+{
+  background: blue
+}
+.fieldIcon{
+  cursor: auto;
+  height: 40px;
+  width:15%;
+  background:white ;
+  border: 1px solid #f4f4f4 ;
+  border-right:transparent;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #525f7f;
+  border-radius: 7px 0px 0px 7px ;
+}
+.loginBtnDiv
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
