@@ -47,7 +47,7 @@
     "request": "^2.83.0",
     "sendgrid": "^5.2.0",
     "sightengine": "^1.1.1",
-    "yarn": "^1.13.0"
+    "yarn": "^1.17.3"
   },
   "repository": {
     "type": "git",
