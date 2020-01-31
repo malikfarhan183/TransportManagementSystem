@@ -232,6 +232,8 @@ console.log("urlObj" , urlObj);
   }
   else
   {
+
+    
     global.baseUrl = "http://atms-dev.herokuapp.com"
   }
       this.index=''
