@@ -26,7 +26,7 @@
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "ejs": "^2.5.7",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "express-csv": "^0.6.0",
     "fs": "0.0.1-security",
     "google": "^2.1.0",
